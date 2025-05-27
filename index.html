@@ -1,0 +1,242 @@
+<!--** start of undefined **-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+    <title>HTML Documentation</title>
+</head>
+<body>
+    <main id="main-doc">
+        
+        <nav id="navbar">
+          <header id="navbar-heading">HTML Documentation</header>
+          <ul>
+            <li id="introduction"><a class="nav-link intro" href="#introduction">Introduction</a></li>
+            <li id="basic html document">
+              <a class="nav-link" href="#basic_html_document">Basic HTML Document</a></li>
+            <li id="html tags"><a class="nav-link" href="#html_tags">HTML Tags</a></li>
+            <li id="html document structure"><a class="nav-link" href="#html_document_structure">HTML Document Structure</a></li>
+            <li id="the doctype declaration"><a class="nav-link" href="#the_doctype_declaration">The DOCTYPE Declaration</a></li>
+          </ul>
+        </nav>
+        <div>
+       
+        <section id="introduction" class="main-section">
+          <header>Introduction</header>
+          <p>HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. HTML was created by Berners-Lee in late 1991 but "HTML 2.0" was the first standard HTML specification which was published in 1995. HTML 4.01 was a major version of HTML and it was published in late 1999. Though HTML 4.01 version is widely used but currently we are having HTML-5 version which is an extension to HTML 4.01, and this version was published in 2012.</p>
+          <p>Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers. Now, HTML is being widely used to format web pages with the help of different tags available in HTML language.</p>
+          <p>Just to give you a little excitement about HTML, I'm going to give you a small conventional HTML Hello World program, You can try it using Demo link.</p>
+          <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;title&gt;This is document title&lt;/title&gt;
+            &lt;/head&gt;	
+            &lt;body&gt;
+            &lt;h1>This is a heading&lt;/h&gt;
+            &lt;p>Hello World!/p&gt;
+            &lt;/body&gt;	
+            &lt;/html&gt;
+          </code>
+        </section>
+        <section id="basic_html_document" class="main-section">
+          <header>Basic HTML Document</header>
+          <p>This HTML tutorial is designed for the aspiring Web Designers and Developers with a need to understand the HTML in enough detail along with its simple overview, and practical examples. This tutorial will give you enough ingredients to start with HTML from where you can take yourself at higher level of expertise.</p>
+          <p>At its heart, HTML is a language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page. This module will introduce the first two of these and introduce fundamental concepts and syntax you need to know to understand HTML.
+            </br>
+            </br>
+            HTML contains information such as page title:
+          </p>
+          <code>&lt;title&gt;HTML Documentation&lt;/title&gt;</code>
+        </section>
+        <section id="html_tags" class="main-section">
+          <header>HTML Tags</header>
+          <p>As told earlier, HTML is a markup language and makes use of various tags to format the content. These tags are enclosed within angle braces <Tag Name>. Except few tags, most of the tags have their corresponding closing tags. For example, <html> has its closing tag </html> and <body> tag has its closing tag </body> tag etc.</p>
+          <p>One of HTML's main jobs is to give text meaning (also known as semantics), so that the browser knows how to display it correctly. This article looks at how to use HTML to break up a block of text into a structure of headings and paragraphs, add emphasis/importance to words, create lists, and more.</p>
+          <code>
+          &lt;!DOCTYPE&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;title&gt;
+            &lt;body&gt;
+            &lt;h1&gt;
+            &lt;p&gt;
+        </code>
+        </section>
+        <section id="html_document_structure" class="main-section">
+          <header>HTML Document Structure</header>
+          <p>There are many other elements in HTML for formatting text that we didn't get to in the HTML text fundamentals article. The elements here are less well-known, but still useful to know about. In this article, you'll learn about marking up quotations, description lists, computer code and other related text, subscript and superscript, contact information, and more.</p>
+          <p>As well as defining individual parts of your page (such as "a paragraph" or "an image"), HTML is also used to define areas of your website (such as "the header", "the navigation menu", or "the main content column"). This article looks into how to plan a basic website structure and how to write the HTML to represent this structure.</p>
+          <code>
+            &lt;html&gt;
+     
+     &lt;head&gt;
+        Document header related tags
+     &lt;/head&gt;
+     
+     &lt;body&gt;
+        Document body related tags
+     &lt;/body&gt;
+     
+  &lt;/html&gt;
+          </code>
+        </section>
+        <section id="the_doctype_declaration" class="main-section">
+          <header>The DOCTYPE Declaration</header>
+          <p>The &lt;!DOCTYPE&gt; declaration tag is used by the web browser to understand the version of the HTML used in the document. Current version of HTML is 5 and it makes use of the following declaration</p>
+          <p>There are many other declaration types which can be used in HTML document depending on what version of HTML is being used. We will see more details on this while discussing &lt;!DOCTYPE...&gt; tag along with other HTML tags.</p>
+          <code>
+            &lt;!DOCTYPE html&gt;
+          </code>
+        <p>
+          To summarize, this HTML covered:
+        </p>
+        <ul class="bullets">
+          <li>Introduction To HTML</li>
+          <li>Basic HTML Document</li>
+          <li>HTML Tags</li>
+          <li>HTML Document Structure</li>
+          <li>The Doctype Declaration</li>
+        </ul>
+        </section>
+      </main>
+</body>
+</html>
+
+<!--** end of undefined **-->
+
+<!--** start of undefined **-->
+
+<style>
+
+#navbar {
+  display: block;
+  padding: 25px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+  position: fixed;
+    min-width: 290px;
+    top: 0;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    box-shadow: 1px 1px 8px #888888;
+}
+
+#navbar-heading {
+  box-shadow: 1px 1px 8px #888888;
+  padding-bottom: 10px;
+}
+
+div {
+  display: block;
+  height: 100%;
+  right: 200px;
+}
+
+header {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.0em;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+section {
+  display: block;
+}
+
+header {
+  display: block;
+  text-align: center;
+}
+
+p {
+  display: block;
+  text-align: left;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+#navbar li {
+    color: #4d4e53;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    box-shadow: 1px 1px 8px #888888;
+}
+
+li {
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+li:last-of-type {
+  
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 320px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+li:hover {
+  background-color: #99c9ff;
+}
+
+@media (max-width: 1960px) {
+  #navbar {
+    padding: 0.1rem;
+  }
+
+.bullets {
+  font-size: .7rem;
+  list-style: square;
+  text-align: left;
+  font-weight: normal;
+}
+
+<!--** end of undefined **-->
+
+</style>
